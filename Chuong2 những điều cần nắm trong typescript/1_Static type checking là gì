@@ -1,0 +1,71 @@
+Agenda 
+
+1. Static type checking                                 // kiểm tra kiểu tĩnh 
+2. Type for Tooling                                    //  Loại cho công  cụ 
+3. tsc-typescript compiler
+4. Emitting with Errors                               // Phát ra lỗi 
+
+Nguồn : https://www.typescriptlang.org/docs/handbook/2/basic-types.html
+
+Một số Lỗi Phổ biến khi dùng javaScript 
+
+const a = undefined;
+a.length 
+ 
+ bug: Cannot read property 'length' ò undefined    // không thể độc được thuộc tính  
+
+
+ const a = '';
+ a();
+
+bug: a is not a function             // a không phải một hàm 
+
+
+const name = 'Easy Frontend';
+name.toLowercase(); 
+
+bug: name.toLowercase is not a function 
+
+1. Static type checking   // giúp mình tìm ra được lỗi trong lúc code 
+     - Typescript giúp mình phát hiện ra lỗi ngay trong luc code.
+     - giúp tránh lỗi typo (Phổ biến bên javaScript) // lỗi này kiểu chữ cái in hoa và in ko hoa
+     - Tiết kiệm thời gian debug
+
+
+     ví dụ: const a = undefined;
+            a.length; 
+        báo bug: object is possibly 'undefined' 
+
+
+ 2. Types for Tooling                                     // các loại công cụ   
+ typescript   hỗ trợ auto completions   ( nghĩa là .là ra )
+
+
+3.tsc-typescript 
+npm install -g typescript
+
+khi gõ tsc                                Nhiệm vụ của nó là sẽ đi tim tất cả các file typescript và nó sẽ compiler ra javaScript
+
+khi gõ tsc index.ts                       
+
+Trong trường hợp mình muốn tập hợp các cái file output của mình tại một cái folder nào đấy ví dụ folder Dist    -> Thì mình sẽ vào trong file tsconfig.json
+// "outDir": "./",                                   /* Specify an output folder for all emitted files. */
+thì mình sẽ cho ra một cái file dist 
+   "outDir": "./dist",   
+
+
+sau đấy gõ tsc ở TERMINAL
+Khi này sẽ có một cái folder dist chứa tất cả các file javaScript được build ra
+
+
+
+
+
+
+ 
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+typescript là một ngôn ngữ mã nguồn mở của microsoft 
+được buid dựa trên ngôn ngữ javascript cũ 
+
+typescript 
+Introduction: 
+
+WHAT   
+
+WHUY
+
+WHO
+
+WHERE
+
+WHEN
+
+Setup project : 
+     -  Nodejs
+     - Typescript 
+     - Prett
+
+
+Typescript basics ( Những vấn đề cơ bản của typescript)
+ - Data Types: là gì 
+ - Comparison 
+ - Static type checking 
+ - Function : nó khác so với javascript như thế nào ?
+
+
+Type System ( Phần phức tạp và quan  trọng nhất )
+- Primitive type (Kiểu dữ liệu nguyên thủy )
+- Interface 
+- Type Alias
+- Enums
+- Utility Types
+
+
+
+Declaration Files ( Tệp khai báo)
+- *.d.ts files   // nó là cái file gì và nó có tác dụng gì ?
+- do and dont 
+
+Unit Test 
+
+References // người giới thiệu 
+- Typescript lang docs 
+- Typescript Deep Dive 
+- React Typescript Cheatsheet 
+
+
+
+
+
+
+
+
+
+

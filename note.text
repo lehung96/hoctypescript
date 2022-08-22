@@ -1,0 +1,18 @@
+để chạy typescript cần cài đặt nodejs và git 
+
+
+npm install -g typescript                    để cài đặt typescript
+
+
+tsc tenfile.ts --watch                         biến đổi file ts thành js
+
+
+node tenfile                                   chạy file js trên localhost
+
+ts-node tenfile.ts                            Làm về 2 chuyện, thứ nhất là chuyển về javascript, thứ 2 là nó chạy luôn     
+
+
+tsc --init                                      tao file tsconfig.json
+kiểu dữ liệu trong typescript 
+
+trong javascript : var tenbien = 1234       // thì nó hiểu là số 

@@ -1,0 +1,12 @@
+kiểu dữ liệu trong typescript 
+
+----------> trong javascript : var tenbien = 1234       // thì nó hiểu là số 
+                   var tenbien = "hahahah"  // thì nó hiểu là chuỗi string
+
+=======>>>> trong javascript tự do trong qui định kiểu dữ liệu ===> chính vì tự do khi mà làm các dự án lớn cần quy định 
+                                                                dõ ràng kiểu dữ liệu để tránh bị trùng lặp dữ liệu, hay là lỗi xảy ra khi mà mình khai báo một kiểu sử dụng một kiểu   
+
+
+
+---------> Trong typescript nó sẽ quy định hết tất cả kiểu dữ liệu tức là khi mà biến ra đời thì mình phải 
+khai báo thuộc kiểu dữ liệu nào , chữ string , number , mảng 

@@ -1,0 +1,11 @@
+Strictness ( đọ khó tính ) Tìm hiểu về strict flag
+sờ-trích-nịt
+
+
+- Ỏ TRONG typescript mình có thể config đọ khó của nó từ dễ đến khó:
+dễ nhất là nó không bắt lỗi gì hết--> lúc đấy sài kiểu dữ liệu any 
+
+- mình có thể config để cho thằng typeScript càng ngày càng trở nên kho tính hơn, nó sẽ bắt nhiều lỗi hơn tức là config độ khó tính của nó càng cao  
+
+
+1. strict flag là gì?

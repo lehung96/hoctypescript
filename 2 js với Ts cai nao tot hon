@@ -1,0 +1,20 @@
+tùy vào mỗi cá nhân , tùy vào hoàn cảnh mà sẽ chọn js hay ts
+
+javascript 
+- Linh hoạt hơn 
+- Không cần phải định nghĩa kiểu dữ liệu hoặc tìm hiểu kiểu dữ liệu khi sử dụng libs
+- code nhanh khi làm một mình 
+- Cần phải hiểu rõ về Javascript để tránh những lỗi lặt vặt 
+
+
+Typescript
+- Gặp khó khăn với type system vì bị lỗi liên quan đến kiểu dữ liệu suốt ngày cho những bạn chưa quen 
+- Nhắc code 
+- Sau khi team quen dần với typescript thì code sẽ tự tin hơn , đỡ lỗi vặt hơn , đặc biệt là những bạn mơi s
+- Code một mình thì hơi chậm lúc ban đầu tí, vì phải tìm hiểu kiểu dữ liệu để khai báo 
+- Code cho cả team thì được lợi rất nhiều từ việc auto complete.
+
+Học typescript , vậy có cần học Javascript không?
+- dĩ nhiên là có 
+
+

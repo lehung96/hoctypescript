@@ -1,0 +1,23 @@
+Explicit types vs Infered types 
+
+x-pờ-li cịt  thai     in-pe-rơ thai
+
+
+1 - Explicit types      // khai báo kiểu dữ liệu tường minh là khai báo rõ ràng nó là kiểu dữ liệu gì bằng cách là đằng sau cái tên biến có dấu : 
+
+
+Trong typeScript muốn khai báo kiểu dữ liệu cho một biến nào đấy thì sử dụng dấu 2 chấm đằng sau tên biến 
+
+vd: let count: Number= 123;
+    let studentName: string = 'Alice';
+    let isActive: boolean = true;
+    const numberList: number[] = [1, 2, 3];
+
+2 -  Infered types    // Kiểu dữ liệu suy luận , không cần khai báo tường minh  (Kiểu như typescript nó đủ thông minh để nó có thể suy luận được là đây là kiểu dữ liệu gì   ) không cần để kiểu dữ liệu đằng sau dấu :
+
+Trong Trường hợp nó không suy diễn được thì để kiểu any 
+
+ví dụ: 
+let count = 123;   // ví dụ khai báo biến count là 123 nó sẽ tự hiểu được cái biến count này trắc chắn là kiểu số khi hover thì nó hiểu đây là kiểu number 
+
+3- Eraised type 

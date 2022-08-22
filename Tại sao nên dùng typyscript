@@ -1,0 +1,7 @@
+Nên DÙNG typescript 
+ - Code được như bạn đã biết bên javascript + optional type system
+ - Hưởng được lợi ích lớn từ việc auto complete kho code 
+ - giúp team hạn chế được lỗi vặt, đặc biệt là typo
+ - Các thư viện đa phần đều đã hỗ trợ typescript 
+ 
+  

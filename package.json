@@ -1,0 +1,17 @@
+{
+  "name": "learntypescipt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "learn typescript form easy fronend ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.2",
+    "typescript": "^4.6.4"
+  }
+}

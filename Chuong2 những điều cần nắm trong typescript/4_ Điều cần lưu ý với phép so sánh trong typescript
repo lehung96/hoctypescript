@@ -1,0 +1,32 @@
+So sánh ở trong type nó có sự khác nhau như thế nào đối với bên javascript 
+
+
+1. bên javascript dấu == và === nó khác nhau như thế nào ?
+
+luôn luôn dùng === 
+trường hợp null vs undefined thì dùng == 
+
+-. Nhắc lại về == và === bên Javascript
+So sánh khác kiểu dữ liệu với ==, thì sẽ được chuyển về number để so sánh. (**)
+Với 3 dấu === thì sẽ giữ nguyên giá trị để so sánh.
+
+
+3- So Sánh Object
+
+- đối với kiểu dữ liệu dạng tham chiếu như là Object , Array và function nó chính là dạng dữ liệu tham chiếu 
+
+- Tham trị và Tham chiếu trong javascript  => này nó liên quan đến một cái việc là cách mà một cái biến trong javascript nó được lưu như thế nào ?
+lưu dạng tham trị hay dạng tham chiếu ?
+
+Nội Dung: 
+1. Tham trị với tham chiếu là gì
+2. Các khái niệm : 
+    - strred by value
+    - strred by reference
+    - pass by value
+    - pass reference
+
+3.Cách khắc phục lỗi liên quan đến reference
+
+
+

@@ -1,0 +1,44 @@
+=> Mình viết typescript mình phải cần một thằng công cụ gì đấy ở giữa để biến đổi cái typescript thành javascript
+
+Setup typescript Project 
+
+Cài đặt VsCode Extension 
+Hỗ Trợ code tốt hơn :
+
+- Bracket Pair Colorizer
+- Code Runner
+- JavaScript (ES6) Code snippets 
+- prettier - code formatter
+- Material Icon Theme
+
+Hỗ trợ unit test :
+- jest 
+- Jest Runner
+- Jest Snippets
+
+Cài đặt npm packages 
+# using yarn 
+yarn global add typescript ts-node ts-lib @types/node  // tự chuyển đổi từ typescript sang javascript 
+ link https://typestrong.org/ts-node/docs/installation
+
+# using npm 
+npm i -g typescript ts-node ts-lib @types/node
+
+Cài đặt Unit test
+
+# using yanr 
+yarn add --dev jest typescript ts-jest @types/jest
+yarn ts-jest config:init 
+
+# using npm 
+npm install --save-dev jest typescript ts-jest @types/jest
+npm ts-jest config:init 
+
+===> đối với javascript thì mình chạy trên node , chạy trên trình duyệt 
+
+Khởi tạo file tsconfig.json mặc định 
+tsc --init 
+
+
+
+

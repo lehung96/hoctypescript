@@ -1,0 +1,21 @@
+Tham trị: là dạng lưu dạng giá trị gì đó
+
+
+Đối với kiểu dữ liệu dạng number , string, boolean, null , undefind => thì nó sẽ lưu trực tiếp giá trị xuống vùng nhớ luôn 
+
+vd: mình có một biến a = 1000;
+const a = 1000;  // thì nó sẽ lưu xuống vùng nhớ trực tiếp là à biến a này nó đang lưu giá trị là 1000 
+
+Tham chiếu: đối với Tham chiếu đối với những kiểu dữ liệu như là object, Array => thì khi mà nó lưu dữ liệu nó sẽ lưu dạng tham chiếu
+Tức là nó =>  lưu địa chỉ nơi giữ giá trị 
+ví dụ: mình có một cái biến a  có cái object là name Hùng , thì thực chất là nó lưu là lưu cái biến a = 1E2F Chính là địa chỉ của cái kho chứa  chứa cái giá trị của cái object này {name: 'Hùng'}
+
+Như vậy là gì đối với những thằng object ,array là gì nó sẽ tạo một cái kho chứa (khó chứa ở đây chính là vùng nhớ trên Ram) thì cái kho chứa này nó sẽ có một cái địa chỉ nào đó nhất định và nó sẽ lưu trữ cái giá trị đó cho mình , có thể là 
+Array,  object hay là bất cứ một kiểu dữ liệu phức tạp nào khác 
+ và nó có một cái địa chỉ và cái ông a = 1E2F  này chỉ có cái địa chỉ của cái vùng nhớ đó thôi à như vậy là bản chất ông a ông dữ địa chỉ của cái nơi chứa giá trị chứ ông không giữ giá trị 
+const a = {name: 'Hùng'}
+
+thực chất a = 1E2F       ====> kHO CHỨA 1E2F
+  
+
+và nó có một kiểu lưu ý với dạng tham chiếu là gì 
